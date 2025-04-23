@@ -74,7 +74,7 @@ public class Grid {
 					System.out.print("A");
 				}
 				else {
-					Cell cell = row.getCell(i);
+					Cell cell = row.GetCell(i);
 					CellComponents left = cell.getComponent(Side.LEFT);
 					System.out.print(left == CellComponents.EXIT ? "E" : "S");
 				}
